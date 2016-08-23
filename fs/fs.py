@@ -198,6 +198,9 @@ class _FS(object):
     def _ie_history(self, directories_to_search):
         self.__data_from_userprofile("IEHistory", directories_to_search)
 
+    def _opera_history(self, directores_to_search):
+        self.__data_from_userprofile("OperaHistory",directories_to_search)
+
     def _firefox_downloads(self, directories_to_search):
         self.__data_from_userprofile("FirefoxDownloads", directories_to_search)
 
